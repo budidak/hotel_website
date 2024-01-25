@@ -66,6 +66,21 @@ ul {
   color: #333;
 }
 
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background-color: #333;
+  color: #f7c08a;
+}
+
 .btn:hover {
   background-color:  #f7c08a;
   color: #333;
@@ -124,7 +139,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 60rem;
 }
 
 .showcase-content {
@@ -141,4 +156,29 @@ ul {
 .showcase-content p {
   padding-bottom: 2rem;
   line-height: 1.7em;
+}
+
+/* Home Info */
+.home-info {
+  height: 40rem;
+}
+
+.home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../img/photo-1.jpg") no-repeat;
+  min-height: 100%;
+}
+
+.home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 5rem 3rem;
+  overflow: hidden;
+}
+
+.home-info .info-content .btn {
+  margin-top: 3rem;
 }
