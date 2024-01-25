@@ -77,12 +77,12 @@ ul {
 }
 
 .bg-primary {
-  background-color: #333;
-  color: #f7c08a;
+  color: #333;
+  background-color: #f7c08a;
 }
 
 .btn:hover {
-  background-color:  #f7c08a;
+  background-color: #f7c08a;
   color: #333;
 }
 
@@ -181,4 +181,16 @@ ul {
 
 .home-info .info-content .btn {
   margin-top: 3rem;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 5rem;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 1rem;
 }
