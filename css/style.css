@@ -34,3 +34,50 @@ p {
 ul {
   list-style-type: none;
 }
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+.logo {
+  float: left;
+  padding-top: 2rem;
+}
+
+.logo > a {
+  display: inline-block;
+  color: inherit;
+  vertical-align: middle;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-item {
+  float: left;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 2rem;
+  color: inherit;
+  vertical-align: middle;
+}
+
+.nav-link:last-child {
+  padding-right: 0;
+}
+
+.nav-link:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+.nav-item.active {
+  color: #f7c08a;
+}
