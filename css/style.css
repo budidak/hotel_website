@@ -90,6 +90,22 @@ ul {
   clear: both;
 }
 
+.l-heading {
+  font-size: 4rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
 /* Navbar */
 .navbar {
   background-color: #333;
@@ -197,6 +213,26 @@ ul {
 
 .box i {
   margin-bottom: 1rem;
+}
+
+/* About Info */
+.about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 10000px;
 }
 
 /* Footer */
