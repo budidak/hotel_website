@@ -35,6 +35,14 @@ ul {
   list-style-type: none;
 }
 
+/* Utility Classes */
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  overflow: auto;
+  padding-inline: 2rem;
+}
+
 /* Navbar */
 .navbar {
   background-color: #333;
