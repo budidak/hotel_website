@@ -123,15 +123,18 @@ ul {
   background-color: #333;
   color: #fff;
   overflow: auto;
+  position: relative;
 }
 
 .logo {
+  position: absolute;
   float: left;
-  padding-top: 2rem;
+  padding: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .logo > a {
-  display: inline-block;
   color: inherit;
   vertical-align: middle;
 }
@@ -147,7 +150,7 @@ ul {
 
 .nav-link {
   display: inline-block;
-  padding: 2rem;
+  padding: 3rem;
   color: inherit;
   vertical-align: middle;
 }
